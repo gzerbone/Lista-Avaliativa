@@ -1,4 +1,3 @@
-
 #include <stdio.h>
 #include <stdlib.h>
 #define MAX 3
@@ -46,28 +45,6 @@ void merge_sort(Pessoa *N, Pessoa *N_AUX, int i, int j, int resposta){
     else if(resposta == 2){
         for(k = i; k <= j; k++){
             if(left == mid + 1){
-                N_AUX[k].nome[k] = N[right].nome[k];
-                right++;
-            }else if(right == j + 1){
-                N_AUX[k].nome[k] = N[left].nome[k];
-                left++;
-            }else if(N[left].nome[k] < N[right].nome[k]){
-                N_AUX[k].nome[k] = N[left].nome[k];
-                left++;
-            }else{
-                N_AUX[k].nome[k] = N[right].nome[k];
-                right++;
-            }
-        }
-
-        for(k = i; k <= j; k++){
-            N[k].nome[k] = N_AUX[k].nome[k];
-        }
-    }
-
-    else if(resposta == 3){
-        for(k = i; k <= j; k++){
-            if(left == mid + 1){
                 N_AUX[k].nota = N[right].nota;
                 right++;
             }else if(right == j + 1){
@@ -90,7 +67,7 @@ void merge_sort(Pessoa *N, Pessoa *N_AUX, int i, int j, int resposta){
 int main(){
     Pessoa N[MAX];
     Pessoa N_AUX[MAX];
-    int i, resposta = 0,x=0;
+    int i, resposta = 0;
 
     printf("***** Digite %d elementos *****\n", MAX);
     for (i = 0; i < MAX; i++){
@@ -105,11 +82,11 @@ int main(){
     }
 
     printf("\n----------------------------------------------\n");
-    printf("Escolha qual sera a ordem da ordenacao:\n1-Matricula\n2-Nome\n3-Nota\n->");
+    printf("Escolha qual sera a ordem da ordenacao:\n1-Matricula\n2-Nota\n->");
     scanf("%d", &resposta);
 
     merge_sort(N, N_AUX, 0, MAX - 1, resposta);
-    printf("%d\n----------------------------------------------\n",resposta);
+    printf("\n----------------------------------------------\n");
     printf("Depois de Ordenado:\n");
     for (i = 0; i < MAX; i++){
         printf("\nMatricula: %d ", N[i].matricula);
