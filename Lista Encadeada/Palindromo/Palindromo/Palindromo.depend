@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1672943056 source:c:\users\gabri\onedrive\햞ea de trabalho\all\faculdade\estrutura de dados\lista avaliativa\lista encadeada\palindromo\palindromo\main.c
+	<stdio.h>
+	<stdlib.h>
+	"list.h"
+
+1672943879 c:\users\gabri\onedrive\햞ea de trabalho\all\faculdade\estrutura de dados\lista avaliativa\lista encadeada\palindromo\palindromo\list.h
+	"node.h"
+	<stdlib.h>
+	<stdio.h>
+
+1672942500 c:\users\gabri\onedrive\햞ea de trabalho\all\faculdade\estrutura de dados\lista avaliativa\lista encadeada\palindromo\palindromo\node.h
+
+1672942821 source:c:\users\gabri\onedrive\햞ea de trabalho\all\faculdade\estrutura de dados\lista avaliativa\lista encadeada\palindromo\palindromo\list.c
+	"list.h"
+
+1672943607 source:c:\users\gabri\onedrive\햞ea de trabalho\all\faculdade\estrutura de dados\lista avaliativa\lista encadeada\palindromo\palindromo\node.c
+	"node.h"
+	<stdio.h>
+	<stdlib.h>
+

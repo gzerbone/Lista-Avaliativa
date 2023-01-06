@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1672952362 source:c:\users\gabri\onedrive\햞ea de trabalho\all\faculdade\estrutura de dados\lista avaliativa\lista encadeada\josephus\josephus\list.c
+	"list.h"
+
+1672945447 c:\users\gabri\onedrive\햞ea de trabalho\all\faculdade\estrutura de dados\lista avaliativa\lista encadeada\josephus\josephus\list.h
+	"node.h"
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<time.h>
+
+1672945461 c:\users\gabri\onedrive\햞ea de trabalho\all\faculdade\estrutura de dados\lista avaliativa\lista encadeada\josephus\josephus\node.h
+	<malloc.h>
+
+1672966805 source:c:\users\gabri\onedrive\햞ea de trabalho\all\faculdade\estrutura de dados\lista avaliativa\lista encadeada\josephus\josephus\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	"list.h"
+
+1672966365 source:c:\users\gabri\onedrive\햞ea de trabalho\all\faculdade\estrutura de dados\lista avaliativa\lista encadeada\josephus\josephus\node.c
+	"node.h"
+	<stddef.h>
+
